@@ -11,6 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 32px;
 }
 
 .menu_link {
@@ -18,7 +19,6 @@ body {
     color: #FFF;
     margin-top: 39px;
     margin-bottom: 39px;
-    gap: 32px;
 }
 
 .top_content {
