@@ -5,18 +5,24 @@
 
 body {
     background-color: #020A18;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    gap: 40px;
 }
 
 .menu_link {
     text-decoration: none;
-    color: #FFF;
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     margin-top: 39px;
     margin-bottom: 39px;
 }
@@ -26,6 +32,11 @@ body {
     margin-top: 160px;
     margin-bottom: 197px;
     justify-content: center;
+    gap: 128px;
+}
+
+.top_info {
+    
 }
 
 .sub_title {
@@ -40,8 +51,20 @@ body {
 }
 
 .text {
+    width: 558px;
     margin-bottom: 50px;
-    color: #FFF;
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+}
+
+.top_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .btn {
@@ -66,6 +89,15 @@ body {
 .top_logo {
     display: flex;
     justify-content: center;
-    padding-bottom: 99;
+    padding-bottom: 87;
+    gap: 71px;
+}
+
+.two-content {
+    padding: 0;
+}
+
+.title__two {
+    justify-content: start;
 }
 
